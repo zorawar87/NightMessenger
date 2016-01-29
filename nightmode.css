@@ -1,0 +1,133 @@
+/* Sections will be from left to right, top-bottom. */
+
+
+/* Messenger Header Bar*/
+._36ic {
+  background-color: #181818 !important;
+  color: white !important;
+}
+
+/* Person's Bar */
+._5742{
+  background-color: #181818 !important;
+}
+
+/* Person's Name */
+._17w2 ._3oh-{
+  background-color: #181818 !important;
+  color: white !important;
+}
+
+/* "Active On Messenger" */
+._2v6o{
+  color: white !important;
+}
+
+/* Search Bar (background) */
+._5iwm{
+  background-color: #181818 !important;
+}
+ ._58al._5iwm {
+  background-color: gray !important;
+ }
+/* Inner Search Bar */
+._58ak{
+  background-color: #181818 !important;
+}
+
+/* Search Bar Placeholder Text */
+._58al::placeholder{
+  color: white !important;
+}
+
+/* CONVERSATIONS */
+
+/* General Conversation Item */
+
+._1ht1{
+  background-color: #181818 !important;
+}
+
+/* Current Conversation Item*/
+._1ht2{
+  background-color: #181818 !important;
+}
+
+/* Other Conversations */
+._569x {
+  background-color: #181818 !important;
+}
+
+/* Current Conversation Photo */
+/*_5l-3*/
+
+/* Current Conversation Name */
+._1ht6{
+  color: white !important;
+}
+
+/* Current Conversation  */
+._17w2 {
+  background-color: #181818 !important;
+}
+
+/* Current Conversation: Message Preview */
+._1htf{
+  color: gray !important;
+}
+
+/* MAIN MESSAGING SECTION */
+
+/* BG */
+._4_j4{
+  background-color: #181818 !important;
+}
+
+/* WRITE NEW MESSAGE */
+
+/* Enter New Message BG */
+._4rv3{
+  background-color: #181818 !important;
+}
+
+/* Enter New Msg PlaceHolder Text */
+._5rpu{
+  color: white !important;
+}
+
+/* SIDE PANEL */
+/* BG */
+._4_j5{
+  background-color: #181818 !important;
+}
+
+/* Top section: Name; */
+._3eur ._3oh-{
+  color: white !important; 
+}
+
+/* Top section: Last active status */
+._3eus{
+  color: white !important;
+}
+
+/* Mute Notifications */
+._3x6u{
+  color: white !important;
+}
+
+/* Mute Status */
+._3x6v{
+  color: #4F64FF !important;
+}
+
+/* "Facebook Profile" & "Shared Photos" Labels */
+._3tl0{
+  color: white !important;
+}
+
+/* Facebook Profile: LINK */
+._3oh-{
+  color: #181818 !important;
+}
+
