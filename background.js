@@ -37,6 +37,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
   }
   else{
     chrome.browserAction.setIcon({path: "off.png", tabId:tab.id});
-    chrome.tabs.executeScript(tab.id, {file:"nightsong.js"});
+    // chrome.tabs.executeScript(tab.id, {file:"nightsong.js"});
   }
 });

@@ -1,5 +1,25 @@
 /* Sections will be from left to right, top-bottom. */
 
+/* Weird classes*/
+
+time._3oh- {
+  color: white !important;
+}
+
+/* Link description bg color */
+._2ph_{
+  background-color: #000F76 !important;
+}
+
+/* Sidepanel border left */
+._4_j5{
+  border-left: 1px solid #E6FEFF !important;
+}
+
+/* Link description text */
+._5rw4{
+  color: #E6FEFF !important;
+}
 
 /* Messenger Header Bar*/
 ._36ic {
@@ -7,9 +27,12 @@
   color: white !important;
 }
 
+/* Messenger header bar border bottom I think */
+
 /* Person's Bar */
 ._5742{
   background-color: #181818 !important;
+  border-bottom: 1px solid #E6FEFF !important;
 }
 
 /* Person's Name */
@@ -51,6 +74,11 @@
 /* Current Conversation Item*/
 ._1ht2{
   background-color: #181818 !important;
+}
+
+/* New Message Conversation alert */
+._1ht3, ._1ht3._1ht1{
+  background-color: #002F4C !important;
 }
 
 /* Other Conversations */
@@ -106,13 +134,39 @@
   color: white !important; 
 }
 
+/* Group name */
+._2jnv{
+  color: white !important;
+}
+
 /* Top section: Last active status */
 ._3eus{
   color: white !important;
 }
 
 /* Mute Notifications */
-._3x6u{
+._3x6u, ._3szq{
+  color: white !important;
+}
+
+/* People, Add People */
+._1lj0, ._4rph ._4rpj {
+  color: white !important;
+}
+
+/* People BG */
+._5l37{
+  background-color: #181818 !important;
+}
+
+/* People border-top */
+
+._5l38{
+  border-top: 1px solid #E6FEFF !important;
+}
+
+/* People text */
+._364g {
   color: white !important;
 }
 
