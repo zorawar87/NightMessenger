@@ -22,21 +22,18 @@
 //   alert('boo');
 //   var toggle = false;
 // }
-
-  var toggle = false;
-chrome.browserAction.onClicked.addListener(function(tab) {
-  toggle = !toggle;
-  if(toggle){
-    chrome.browserAction.setIcon({path: "on.png", tabId:tab.id});
-    // chrome.cookies.set({
-    //   "url" : "https://www.messenger.com/t/*",
-    //   "name": "nightMessengerToggle",
-    //   "value": false
-    // });
-    chrome.tabs.executeScript(tab.id, {file:"scriptofpassing.js"});
-  }
-  else{
-    chrome.browserAction.setIcon({path: "off.png", tabId:tab.id});
-    // chrome.tabs.executeScript(tab.id, {file:"nightsong.js"});
-  }
+var toggle = false;
+chrome.browserAction.onClicked.addListener(function (tab) {
+    toggle = !toggle;
+    if (toggle) {
+      // Change Icon
+      chrome.browserAction.setIcon({path: "on.png", tabId: tab.id});
+      // Apply Script + CSS
+      chrome.tabs.executeScript(tab.id, {file: "night.js"});
+    } else {
+      // Change Icon
+      chrome.browserAction.setIcon({path: "off.png", tabId: tab.id});
+      // Apply Script + CSS
+      chrome.tabs.executeScript(tab.id, {file: "day.js"});
+    }
 });
