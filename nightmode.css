@@ -18,7 +18,7 @@ time._3oh- {
 
 /* Sidepanel border left */
 ._4_j5{
-  border-left: 1px solid #E6FEFF !important;
+  border-left: 1px solid #5A6364 !important;
 }
 
 /* Link description text */
@@ -37,12 +37,26 @@ time._3oh- {
 /* Person's Bar */
 ._5742{
   background-color: #181818 !important;
-  border-bottom: 1px solid #E6FEFF !important;
+  border-bottom: 1px solid #989C9F !important;
+}
+
+/* Timestamp */
+._1ht7 {
+  color: #C4E2E8 !important;
+}
+
+abbr._1ht7 {
+  color: white !important;
 }
 
 /* Person's Name */
 ._17w2 ._3oh-{
   background-color: #181818 !important;
+  color: white !important;
+}
+
+/* "Facebook Profile" Link */
+a._3oh-{
   color: white !important;
 }
 
@@ -151,7 +165,7 @@ time._3oh- {
 
 /* Mute Notifications */
 ._3x6u, ._3szq{
-  color: white !important;
+  color: #A8ADB0 !important;
 }
 
 /* People, Add People */
