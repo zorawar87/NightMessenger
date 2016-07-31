@@ -6,6 +6,21 @@ time._3oh- {
   color: white !important;
 }
 
+/* Change nickname modal */ 
+._4eby {
+  background: grey !important;
+}
+
+/* Lower section of nickname modal*/
+._29hl ._5l37 {
+  background: gray !important;
+}
+
+/*Edit your nickname input bg*/
+._58al{
+  background: darkgray !important;
+}
+
 /* Link description bg color */
 ._2ph_{
   background-color: #000F76 !important;
@@ -61,7 +76,6 @@ a._3oh-{
 }
 
 ._3oh- span {
-  color: white !important;
 }
 
 /* "Active On Messenger" */
@@ -128,6 +142,15 @@ a._3oh-{
 }
 
 /* MAIN MESSAGING SECTION */
+
+/* New Messaging Person's Name */ 
+._llq span._3oh-{
+  color: white !important;
+}
+
+._36zg, ._1n-e{
+  color: white !important;  
+}
 
 /* BG */
 ._4_j4{
