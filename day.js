@@ -1,4 +1,11 @@
 "use strict";
-$('.nightMessenger').each(function(i, obj) {
-  obj.remove();
+
+// Removes the stylesheet element
+document.getElementById('nightMessenger')
+.parentNode
+.removeChild(document.getElementById('nightMessenger'));
+
+// Turn off sync preference
+chrome.storage.sync.set({ activated : false  }, function() {
+  console.log("Deactivated."); 
 });

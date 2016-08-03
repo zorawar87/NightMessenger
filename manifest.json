@@ -3,29 +3,27 @@
 
   "name": "Night Messenger",
   "description": "Use Messenger.com at night! A UNOFFICIAL night mode for Facebook's web app. We have no affiliation with Facebook.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "permissions": [
-    "storage", "webNavigation", "tabs","http://*/*", "https://*/*", "cookies"
+    "storage", "webNavigation", "tabs","http://*/*", "https://*/*"
   ],
   "browser_action": {
     "default_icon": "off.png",
     "default_title": "Toggle Messenger's night mode."
     },
-    "content_scripts": [
-    {
-      "matches": ["https://www.messenger.com/t/*"],
-      "js": [
-        "jquery.js", 
-        "night.js", 
-        "day.js"
-      ]
-    }
-    ],
-    "web_accessible_resources" : [
-    "nightmode.css"
-    ],
-    "background": {
-      "persistent": false,
-      "scripts": ["background.js"] 
-    }
+  "content_scripts": [
+  {
+    "matches": ["https://www.messenger.com/","https://www.messenger.com/t/*"],
+    "js": [
+      "driver.js"
+    ]
   }
+  ],
+  "web_accessible_resources" : [
+    "nightmode.css"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"] 
+  }
+}
