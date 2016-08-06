@@ -1,4 +1,4 @@
 popup.html
 popup.js
 node_modules/
-
+.DS_Store
