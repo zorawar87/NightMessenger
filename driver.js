@@ -6,9 +6,10 @@ chrome.storage.sync.get("activated", function(obj){
   initialToggleState = obj.activated;
 
   if (initialToggleState) { 
-    let a     = chrome.extension.getURL("nightmode.css"),
-        link  = document.createElement('link');
+    let a     = chrome.extension.getURL("dist/css/nightmode.css");
+    let link  = document.createElement('link');
 
+    // Build element
     link.type = 'text/css';
     link.rel = 'stylesheet';
     link.id = "nightMessenger";
