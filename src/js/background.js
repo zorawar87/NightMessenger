@@ -22,6 +22,3 @@ var toggleOnOff = function(tab){
 };
 
 chrome.browserAction.onClicked.addListener(toggleOnOff);
-// chrome.browserAction.onClicked.addListener(function(tab) {
-//   console.log("lasfjawoeigjaoweifj"); 
-// });
