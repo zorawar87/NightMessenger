@@ -1,9 +1,7 @@
 "use strict";
 
 chrome.storage.sync.get("activated", function(obj){
-  let initialToggleState;
-  console.log("Initial check.");
-  initialToggleState = obj.activated;
+  let initialToggleState = obj.activated;
 
   if (initialToggleState) { 
     let a     = chrome.extension.getURL("dist/css/nightmode.css");
