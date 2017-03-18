@@ -22,6 +22,30 @@ time._3oh- {
   border-bottom: none !important;
 }
 
+/*People's names in the nickname modal*/
+._3q34 span {
+  color: white !important;
+}
+
+/*People's real names in the nickname modal*/
+._3q35 {
+  color: white !important;
+}
+
+/*Input in nickname change modal*/
+._30e7._5j5f {
+  background-color: gray;
+}
+
+/*Input text color in nickname change modal*/
+._5j5f._3oh-{
+  color: gray;
+}
+
+._4eb-._4h9o ._5l38._42ef {
+  border-top: 0 important!;
+}
+
 /* Lower section of nickname modal*/
 ._29hl ._5l37 {
   background: #CDD6DB !important; }
@@ -207,9 +231,20 @@ span._3oh- {
 ._5l37 {
   background-color: #1E2124 !important; }
 
+/*Active conversation*/
+._1ht1._1ht2 {
+  background-color: #233276 !important;
+}
+
 /* People border-top */
-._5l38 {
-  border-top: 1px solid #86888a !important; }
+/*._5l38 {*/
+._44kr {
+  /*border-bottom: 1px solid #86888a !important; */
+}
+
+._44kr:hover {
+  background-color: #3c4248 !important;
+}
 
 /* People text */
 ._364g {
