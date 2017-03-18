@@ -6,13 +6,25 @@
 time._3oh- {
   color: #ADAEB0 !important; }
 
+/*Color Selector Modal*/
+._4ebx ._59s7>div {
+  background-color: #CDD6DB !important;
+}
+._4eby._2c9g {
+  background-color: #CDD6DB !important;
+}
+
 /* Change nickname modal */
 ._4eby {
-  background: grey !important; }
+  background: #CDD6DB !important; }
+
+._4t2a ._2c9i h2._4ebz {
+  border-bottom: none !important;
+}
 
 /* Lower section of nickname modal*/
 ._29hl ._5l37 {
-  background: gray !important; }
+  background: #CDD6DB !important; }
 
 /*Edit your nickname input bg*/
 ._58al {
@@ -57,6 +69,27 @@ abbr._1ht7 {
   background-color: #1E2124 !important;
   color: #ADAEB0 !important; }
 
+/* Message Settings Icon*/
+._5blh._4-0h._p {
+  /*filter: invert(100%);*/
+  opacity: .2;
+}
+
+/* Message Settings Icon*/
+._5blh._4-0h._p:hover {
+  opacity: .8;
+}
+
+/*Image Icon*/
+._4rv6 {
+  filter: invert(70%);
+}
+
+/*Games*/
+a._4ce_ {
+  filter: invert(70%);
+}
+
 /* "Facebook Profile" Link */
 a._3oh- {
   color: #ADAEB0 !important; }
@@ -72,12 +105,22 @@ span._3oh- {
 ._5iwm {
   background-color: #1E2124 !important; }
 
+/* Search Bar dropdown bg*/
+._29hl ._5l37 {
+  background-color: #1e2124 !important;
+}
+
 ._58al._5iwm {
   background-color: gray !important; }
 
 /* Inner Search Bar */
 ._58ak {
   background-color: #1E2124 !important; }
+
+/* Search Bar */
+._4sp8 { 
+  background-color: #1E2124;
+}
 
 /* Search Bar Placeholder Text */
 ._58al::placeholder {
@@ -179,6 +222,11 @@ span._3oh- {
 /* Message from me BG */
 ._3i_m._nd_ ._3058._ui9._hh7._s1-._52mr {
   background-color: #233276 !important; }
+
+/* MSG containing smiley*/
+._3058._ui9._hh7._s1-._52mr._2f5r._581a {
+  padding: 1rem;
+}
 
 /* Smiley */
 ._583a {
