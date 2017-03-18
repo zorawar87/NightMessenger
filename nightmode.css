@@ -161,7 +161,15 @@ span._3oh- {
 
 /* New Message Conversation alert */
 ._1ht3, ._1ht3._1ht1 {
-  background-color: #002F4C !important; }
+  background-color: #002F4C !important; 
+  animation: pulsate 2s linear infinite !important;
+}
+
+@keyframes pulsate {
+    0% {background: #002F4C}
+    50% {background: #06385C}
+    100% {background: #002F4C}
+}
 
 /* Other Conversations */
 ._569x {
@@ -231,9 +239,9 @@ span._3oh- {
 ._5l37 {
   background-color: #1E2124 !important; }
 
-/*Active conversation*/
+/*Current conversation*/
 ._1ht1._1ht2 {
-  background-color: #233276 !important;
+  background-color: #2E2F2F !important;
 }
 
 /* People border-top */
