@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Night Messenger",
   "description": "Use Messenger.com at night! A UNOFFICIAL night mode for Facebook's web app. We have no affiliation with Facebook.",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "permissions": [
     "storage", "webNavigation", "tabs","http://www.messenger.com/t/*", "https://www.messenger.com/t/*"
   ],
