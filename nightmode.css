@@ -197,6 +197,11 @@ span._3oh- {
 ._36zg, ._1n-e {
   color: #ADAEB0 !important; }
 
+/* Remove ugly border*/
+._hh7._aol {
+  border: none !important;
+}
+
 /* BG */
 ._4_j4 {
   background-color: #1E2124 !important; }
