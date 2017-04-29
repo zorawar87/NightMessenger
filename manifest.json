@@ -4,7 +4,7 @@
   "description": "Use Messenger.com at night! A UNOFFICIAL night mode for Facebook's web app. We have no affiliation with Facebook.",
   "version": "1.2.4",
   "permissions": [
-    "storage", "webNavigation", "tabs","http://*/*", "https://*/*"
+    "storage", "webNavigation", "tabs","http://www.messenger.com/t/*", "https://www.messenger.com/t/*"
   ],
   "browser_action": {
     "default_icon": "off.png",
