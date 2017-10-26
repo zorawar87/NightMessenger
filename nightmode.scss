@@ -26,8 +26,12 @@ time._3oh- {
 }
 
 /*Edit your nickname input bg*/
-._58al{
+._5iwm ._58al{
   background: darkgray !important;
+}
+
+._23ct {
+  filter: invert(100%);
 }
 
 /* Link description bg color */
@@ -136,6 +140,11 @@ span._3oh- {
 /* Current Conversation Photo */
 /*_5l-3*/
 
+// New Message Photo Profile photo
+._5l-3._1ht1._1ht2 ._1qt3._5l-3:not(._55lt) {
+  // filter: invert(100%);
+}
+
 /* Current Conversation Name */
 ._1ht6{
   color: $white !important;
@@ -162,6 +171,24 @@ span._3oh- {
   color: $white !important;  
 }
 
+// Group convo: user's name
+._ih3 {
+  color: $white;
+}
+
+// Attachment unavailable: bubble
+._5i_d {
+  border: 1px solid $accent;
+  background-color: transparent !important;
+  // Attachment Unavailable
+  .__6k {
+    color: $white !important;
+  }
+  .__6l {
+    color: $white !important;
+  }
+}
+
 /* BG */
 ._4_j4{
   background-color: $darkgray !important;
@@ -172,6 +199,28 @@ span._3oh- {
 /* Enter New Message BG */
 ._4rv3{
   background-color: $darkgray !important;
+}
+
+// Write a new message to a person
+._2y8y._5l-3 {
+  background: $darkgray !important;
+  ._2y8z {
+    color: $white !important;
+  }
+  ._58al {
+    color: $white !important;
+    background-color: $darkgray;
+  }
+}
+
+// Icon that use PNGs
+
+._4rv6 {
+  filter: invert(100%);
+}
+
+a._4ce_ {
+  filter: invert(100%);
 }
 
 /* Enter New Msg PlaceHolder Text */
@@ -256,3 +305,16 @@ span._3oh- {
   color: $darkgray !important;
 }
 
+// Dropdown search menu
+._29hl div.clearfix{
+  color: $darkgray !important;
+  &:hover {
+    background-color: $accent !important;
+    color: $white !important;
+  }
+}
+
+// Emoji
+._1ifu {
+  padding: 10px;
+}

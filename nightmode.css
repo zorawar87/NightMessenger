@@ -6,53 +6,20 @@
 time._3oh- {
   color: #ADAEB0 !important; }
 
-/*Color Selector Modal*/
-._4ebx ._59s7>div {
-  background-color: #CDD6DB !important;
-}
-._4eby._2c9g {
-  background-color: #CDD6DB !important;
-}
-
 /* Change nickname modal */
 ._4eby {
-  background: #CDD6DB !important; }
-
-._4t2a ._2c9i h2._4ebz {
-  border-bottom: none !important;
-}
-
-/*People's names in the nickname modal*/
-._3q34 span {
-  color: white !important;
-}
-
-/*People's real names in the nickname modal*/
-._3q35 {
-  color: white !important;
-}
-
-/*Input in nickname change modal*/
-._30e7._5j5f {
-  background-color: gray;
-}
-
-/*Input text color in nickname change modal*/
-._5j5f._3oh-{
-  color: gray;
-}
-
-._4eb-._4h9o ._5l38._42ef {
-  border-top: 0 important!;
-}
+  background: grey !important; }
 
 /* Lower section of nickname modal*/
 ._29hl ._5l37 {
-  background: #CDD6DB !important; }
+  background: gray !important; }
 
 /*Edit your nickname input bg*/
-._58al {
+._5iwm ._58al {
   background: darkgray !important; }
+
+._23ct {
+  filter: invert(100%); }
 
 /* Link description bg color */
 ._2ph_ {
@@ -93,27 +60,6 @@ abbr._1ht7 {
   background-color: #1E2124 !important;
   color: #ADAEB0 !important; }
 
-/* Message Settings Icon*/
-._5blh._4-0h._p {
-  /*filter: invert(100%);*/
-  opacity: .2;
-}
-
-/* Message Settings Icon*/
-._5blh._4-0h._p:hover {
-  opacity: .8;
-}
-
-/*Image Icon*/
-._4rv6 {
-  filter: invert(70%);
-}
-
-/*Games*/
-a._4ce_ {
-  filter: invert(70%);
-}
-
 /* "Facebook Profile" Link */
 a._3oh- {
   color: #ADAEB0 !important; }
@@ -129,22 +75,12 @@ span._3oh- {
 ._5iwm {
   background-color: #1E2124 !important; }
 
-/* Search Bar dropdown bg*/
-._29hl ._5l37 {
-  background-color: #1e2124 !important;
-}
-
 ._58al._5iwm {
   background-color: gray !important; }
 
 /* Inner Search Bar */
 ._58ak {
   background-color: #1E2124 !important; }
-
-/* Search Bar */
-._4sp8 { 
-  background-color: #1E2124;
-}
 
 /* Search Bar Placeholder Text */
 ._58al::placeholder {
@@ -161,15 +97,7 @@ span._3oh- {
 
 /* New Message Conversation alert */
 ._1ht3, ._1ht3._1ht1 {
-  background-color: #002F4C !important; 
-  animation: pulsate 2s linear infinite !important;
-}
-
-@keyframes pulsate {
-    0% {background: #002F4C}
-    50% {background: #06385C}
-    100% {background: #002F4C}
-}
+  background-color: #002F4C !important; }
 
 /* Other Conversations */
 ._569x {
@@ -197,10 +125,16 @@ span._3oh- {
 ._36zg, ._1n-e {
   color: #ADAEB0 !important; }
 
-/* Remove ugly border*/
-._hh7._aol {
-  border: none !important;
-}
+._ih3 {
+  color: #ADAEB0; }
+
+._5i_d {
+  border: 1px solid #233276;
+  background-color: transparent !important; }
+  ._5i_d .__6k {
+    color: #ADAEB0 !important; }
+  ._5i_d .__6l {
+    color: #ADAEB0 !important; }
 
 /* BG */
 ._4_j4 {
@@ -210,6 +144,20 @@ span._3oh- {
 /* Enter New Message BG */
 ._4rv3 {
   background-color: #1E2124 !important; }
+
+._2y8y._5l-3 {
+  background: #1E2124 !important; }
+  ._2y8y._5l-3 ._2y8z {
+    color: #ADAEB0 !important; }
+  ._2y8y._5l-3 ._58al {
+    color: #ADAEB0 !important;
+    background-color: #1E2124; }
+
+._4rv6 {
+  filter: invert(100%); }
+
+a._4ce_ {
+  filter: invert(100%); }
 
 /* Enter New Msg PlaceHolder Text */
 ._5rpu {
@@ -244,20 +192,9 @@ span._3oh- {
 ._5l37 {
   background-color: #1E2124 !important; }
 
-/*Current conversation*/
-._1ht1._1ht2 {
-  background-color: #2E2F2F !important;
-}
-
 /* People border-top */
-/*._5l38 {*/
-._44kr {
-  /*border-bottom: 1px solid #86888a !important; */
-}
-
-._44kr:hover {
-  background-color: #3c4248 !important;
-}
+._5l38 {
+  border-top: 1px solid #86888a !important; }
 
 /* People text */
 ._364g {
@@ -270,11 +207,6 @@ span._3oh- {
 /* Message from me BG */
 ._3i_m._nd_ ._3058._ui9._hh7._s1-._52mr {
   background-color: #233276 !important; }
-
-/* MSG containing smiley*/
-._3058._ui9._hh7._s1-._52mr._2f5r._581a {
-  padding: 1rem;
-}
 
 /* Smiley */
 ._583a {
@@ -291,3 +223,12 @@ span._3oh- {
 /* Facebook Profile: LINK */
 ._3oh- {
   color: #1E2124 !important; }
+
+._29hl div.clearfix {
+  color: #1E2124 !important; }
+  ._29hl div.clearfix:hover {
+    background-color: #233276 !important;
+    color: #ADAEB0 !important; }
+
+._1ifu {
+  padding: 10px; }
